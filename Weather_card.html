@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Project</title>
+
+    <link rel="stylesheet" href="Weather_card.css">
+</head>
+<body>
+    
+
+    <div class="card">
+        <div class="user_input">
+            <input type="text" placeholder="enter your city name">
+            <button class="searching">search</button>
+        </div>
+
+        <div class="image">
+            <img src="Assets/weather_images.png" alt="pics" class="picture">
+        </div>
+
+        <footer class="footer">
+
+            <div class="weather_humidity">
+                <h5>Weather</h5>
+                <div class="des">0</div>
+            </div>
+            <div class="weather_temp">
+               <h5>Temperature</h5>
+               <div class="temperature">0°C</div>
+            </div>
+
+        </footer>
+
+    </div>
+
+
+
+
+
+    <script src="Weather_card.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+</body>
+</html>
